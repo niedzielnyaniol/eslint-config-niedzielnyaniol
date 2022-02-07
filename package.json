@@ -4,7 +4,9 @@
   "description": "My personal eslint configuration",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -c index.js react.js ."
+    "lint": "eslint -c index.js react.js .",
+    "version": "npx standard-changelog && git add .",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
