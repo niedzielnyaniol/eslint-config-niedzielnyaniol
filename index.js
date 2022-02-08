@@ -20,6 +20,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
     'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'export' }],
+    "no-restricted-exports": "off"
   },
   overrides: {
     files: ['**/*.ts?(x)'],  
@@ -41,7 +42,8 @@ module.exports = {
       ],
       'no-shadow': 'off',
       '@typescript-eslint/no-shadow': ['error'],
-      '@typescript-eslint/no-unused-vars': 'error'
+      '@typescript-eslint/no-unused-vars': 'error',
+      "no-useless-constructor": "off",
     },
   }
 };
