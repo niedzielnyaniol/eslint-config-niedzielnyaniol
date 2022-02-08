@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/compare/v2.0.0...v2.0.1) (2022-02-08)
+
+
+### Features
+
+* **index:** add new rules ([ba4cb80](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/commit/ba4cb807bec42c7cedbe60b487e99ccc19311811))
+
+
+
 # [2.0.0](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/compare/v1.0.0...v2.0.0) (2022-02-08)
 
 
