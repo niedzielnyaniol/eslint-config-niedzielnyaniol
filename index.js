@@ -21,4 +21,27 @@ module.exports = {
     'operator-linebreak': 'off',
     'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'export' }],
   },
+  overrides: {
+    files: ['**/*.ts?(x)'],  
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      ecmaVersion: 2018,
+      sourceType: 'module',
+    },
+    extends: [
+      'plugin:@typescript-eslint/eslint-recommended',
+      'plugin:@typescript-eslint/recommended',
+    ],
+    plugins: ['@typescript-eslint'],
+    rules: {
+      'no-magic-numbers': 'off',
+      '@typescript-eslint/no-magic-numbers': [
+        'error',
+        { ignoreEnums: true, ignoreArrayIndexes: true, ignore: [0, 1], ignoreDefaultValues: true },
+      ],
+      'no-shadow': 'off',
+      '@typescript-eslint/no-shadow': ['error'],
+      '@typescript-eslint/no-unused-vars': 'error'
+    },
+  }
 };
