@@ -22,7 +22,7 @@ module.exports = {
     'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'export' }],
     "no-restricted-exports": "off"
   },
-  overrides: {
+  overrides: [{
     files: ['**/*.ts?(x)'],  
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -45,5 +45,5 @@ module.exports = {
       '@typescript-eslint/no-unused-vars': 'error',
       "no-useless-constructor": "off",
     },
-  }
+  }]
 };
