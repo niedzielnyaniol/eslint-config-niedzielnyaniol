@@ -1,3 +1,12 @@
+# [2.0.0](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/compare/v1.0.0...v2.0.0) (2022-02-08)
+
+
+### Features
+
+* merge typescript to index ([ab0f0f1](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/commit/ab0f0f1a46dc90b3a0c1ef3d03643f2bbb4cdd71))
+
+
+
 # 1.0.0 (2022-02-07)
 
 
