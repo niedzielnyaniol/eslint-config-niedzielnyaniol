@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/compare/v2.0.2...v2.0.3) (2022-02-08)
+
+
+### Bug Fixes
+
+* **index:** overrides as an array ([3849d76](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/commit/3849d76f9cd37b8869c2087dd73c8b4383fe1939))
+
+
+
 ## [2.0.2](https://github.com/niedzielnyaniol/eslint-config-niedzielnyaniol/compare/v2.0.1...v2.0.2) (2022-02-08)
 
 
